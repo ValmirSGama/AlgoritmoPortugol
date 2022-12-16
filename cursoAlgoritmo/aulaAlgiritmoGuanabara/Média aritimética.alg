@@ -1,0 +1,12 @@
+algoritmo "Média aritimética"
+var
+  n1, n2: inteiro
+  m: real
+inicio
+ escreva ("Informe um número: ")
+ leia (n1)
+ escreva ("Informe outro número: ")
+ leia (n2)
+  M <- (n1+n2)/2
+  escreva ("A Média entre:",n1," e",n2," é igual a= ",M)
+fimalgoritmo
